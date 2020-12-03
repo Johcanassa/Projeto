@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+    android:backgroundTint="#000A0707"
+    android:layoutDirection="inherit"
+    android:layoutMode="opticalBounds"
+    app:layout_insetEdge="end"
+    tools:context=".doutoresdaalegria">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/iddralegria"
+                android:layout_width="149dp"
+                android:layout_height="170dp"
+                android:layout_gravity="clip_horizontal"
+                app:srcCompat="@drawable/doutores" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/txtendereco"
+                    android:layout_width="match_parent"
+                    android:layout_height="126dp"
+                    android:layout_gravity="center"
+                    android:breakStrategy="simple"
+                    android:gravity="center"
+                    android:text=" Fixo:(15) 3271-9049 \n Whatssap (15)99560-7040 \n E-mail:dr.alegria@ig.com.br"
+                    android:textAlignment="viewStart"
+                    android:textColor="#F31F1C1C"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    tools:ignore="RtlCompat">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="21dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtmissao"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="@string/Missao"
+            android:textAlignment="viewStart"
+            android:textColor="#DF1F1C1C"
+            android:textSize="25sp"
+            android:textStyle="normal"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txttipodoacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Venha se alegrar com a gente, será um prazer tê-lo em nossa equipe \n 'Voluntariado não é só uma palavra, é amor, dedicação e também ação'."
+            android:textAlignment="center"
+            android:textColor="#D8350707"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            tools:ignore="RtlCompat">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

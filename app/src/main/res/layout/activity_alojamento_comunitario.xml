@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#000A0707"
+    tools:context=".AlojamentoComunitario">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#12FFFFFF"
+        android:backgroundTint="#0DF8EDED"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtalojamento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:breakStrategy="simple"
+            android:gravity="center"
+            android:text="ALOJAMENTO COMUNITARIO"
+            android:textColor="#D0201616"
+            android:textSize="36sp"
+            android:textStyle="bold|italic"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/idalojamento"
+                android:layout_width="160dp"
+                android:layout_height="220dp"
+                android:layout_gravity="clip_vertical"
+                android:backgroundTint="#00FFFFFF"
+                android:backgroundTintMode="screen"
+                app:srcCompat="@drawable/alojamento" />
+
+            <TextView
+                android:id="@+id/txtendereco"
+                android:layout_width="242dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:breakStrategy="simple"
+                android:gravity="fill_horizontal"
+                android:text="Responsável:Roberto Santos \n Endereço: Pça. dos 3 Poderes, 1000 - Jardim Marabá ITAPETININGA - SP, 18213-900 Brasil \n Fone: (15) 3271.9049 \n E-mail:alojamento@ig.com.br \n Horário de Funcionamento: Seg a Sáb/08 - 17 hrs"
+                android:textColor="#F31F1C1C"
+                android:textSize="20sp"
+                android:textStyle="italic">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtalojacomunitario"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:breakStrategy="simple"
+            android:gravity="fill_horizontal"
+            android:text="@string/alojamento"
+            android:textColor="#DF1F1C1C"
+            android:textSize="25sp"
+            android:textStyle="italic">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txttipodoacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:breakStrategy="high_quality"
+            android:gravity="fill_horizontal"
+            android:text="Tipo de Doações que Recebe: \n Roupas \n Calçados \n Cobertores \n Alimentos \n Móveis"
+            android:textColor="#DF1F1C1C"
+            android:textSize="20sp"
+            android:textStyle="bold|italic">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/idlocalizar"
+                android:layout_width="147dp"
+                android:layout_height="107dp"
+                android:layout_gravity="clip_horizontal"
+                app:srcCompat="@drawable/localizacao" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/txtLocalizacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:breakStrategy="simple"
+                    android:gravity="fill_vertical"
+                    android:text="Localização"
+                    android:textColor="#DF1F1C1C"
+                    android:textSize="25sp"
+                    android:textStyle="italic">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

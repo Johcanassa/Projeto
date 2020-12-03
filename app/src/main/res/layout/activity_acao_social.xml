@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcaoSocial">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/acaosocial">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/txtdralegria"
+            android:layout_width="400dp"
+            android:layout_height="54dp"
+            android:layout_gravity="end"
+            android:breakStrategy="simple"
+            android:gravity="center|center_horizontal|left"
+            android:text="DOUTORES DA ALEGRIA"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textColor="#D0201616"
+            android:textSize="30sp"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:id="@+id/txtesporteclube"
+            android:layout_width="400dp"
+            android:layout_height="54dp"
+            android:layout_gravity="end"
+            android:breakStrategy="simple"
+            android:gravity="center|center_horizontal|left"
+            android:text="ESPORTE CLUBE FUTURO"
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textColor="#D0201616"
+            android:textSize="30sp"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:id="@+id/txtcorrentedobem"
+            android:layout_width="400dp"
+            android:layout_height="54dp"
+            android:layout_gravity="end"
+            android:breakStrategy="simple"
+            android:gravity="center|center_horizontal|left"
+            android:text="CORRENTE DO BEM "
+            android:textAlignment="gravity"
+            android:textAllCaps="false"
+            android:textColor="#D0201616"
+            android:textSize="30sp"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:id="@+id/txtsopao"
+            android:layout_width="400dp"
+            android:layout_height="54dp"
+            android:layout_gravity="end"
+            android:breakStrategy="simple"
+            android:gravity="center|center_horizontal|left"
+            android:text="SOPÃO COMUNITÁRIO"
+            android:textColor="#D0201616"
+            android:textSize="30sp"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:id="@+id/txtsorriso"
+            android:layout_width="400dp"
+            android:layout_height="54dp"
+            android:layout_gravity="end"
+            android:breakStrategy="simple"
+            android:gravity="center|center_horizontal|left"
+            android:text="CRIANÇA SORRISO"
+            android:textColor="#D0201616"
+            android:textSize="30sp"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:id="@+id/txtanjos"
+            android:layout_width="400dp"
+            android:layout_height="54dp"
+            android:layout_gravity="end"
+            android:breakStrategy="simple"
+            android:gravity="center|center_horizontal|left"
+            android:text="ANJOS DA NOITE"
+            android:textColor="#D0201616"
+            android:textSize="30sp"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:id="@+id/txtacaocidadania"
+            android:layout_width="400dp"
+            android:layout_height="54dp"
+            android:layout_gravity="end"
+            android:breakStrategy="simple"
+            android:gravity="center|center_horizontal|left"
+            android:text="AÇÃO CIDADANIA"
+            android:textAlignment="gravity"
+            android:textColor="#D0201616"
+            android:textSize="30sp"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:id="@+id/txtafenix"
+            android:layout_width="400dp"
+            android:layout_height="54dp"
+            android:layout_gravity="end"
+            android:breakStrategy="simple"
+            android:gravity="center|center_horizontal|left"
+            android:text="ASSOCIAÇÃO FÊNIX"
+            android:textAlignment="gravity"
+            android:textColor="#D0201616"
+            android:textSize="30sp"
+            android:textStyle="normal|italic" />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoeAqui">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:background="@drawable/doacao">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/btnroupa"
+            android:layout_width="416dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#6B2F8EBB"
+            android:gravity="center"
+            android:text="ROUPAS"
+            android:textAlignment="center"
+            android:textColor="#E11D75E0"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:background="@drawable/roupas">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/btncalçados"
+            android:layout_width="416dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#6B2F8EBB"
+            android:gravity="center"
+            android:text="CALÇADOS"
+            android:textAlignment="center"
+            android:textColor="#E11D75E0"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:background="@drawable/sapatos">
+
+        </ImageView>
+        <Button
+            android:id="@+id/btnbrinquedos"
+            android:layout_width="416dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#6B2F8EBB"
+            android:gravity="center"
+            android:text="BRINQUEDOS"
+            android:textAlignment="center"
+            android:textColor="#E11D75E0"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:background="@drawable/brinquedo">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/btncobertores"
+            android:layout_width="416dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#6B2F8EBB"
+            android:gravity="center"
+            android:text="COBERTORES"
+            android:textAlignment="center"
+            android:textColor="#E11D75E0"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:background="@drawable/cobertores">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/btnalimentos"
+            android:layout_width="416dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#6B2F8EBB"
+            android:gravity="center"
+            android:text="ALIMENTOS"
+            android:textAlignment="center"
+            android:textColor="#E11D75E0"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:background="@drawable/alimentos">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/btnmoveis"
+            android:layout_width="416dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#6B2F8EBB"
+            android:gravity="center"
+            android:text="MÓVEIS"
+            android:textAlignment="center"
+            android:textColor="#E11D75E0"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:background="@drawable/moveis2">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/btneletro"
+            android:layout_width="416dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#6B2F8EBB"
+            android:gravity="center"
+            android:text="Eletrotoméstico"
+            android:textAlignment="center"
+            android:textColor="#E11D75E0"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:background="@drawable/eletrodomestico">
+
+        </ImageView>
+        <Button
+            android:id="@+id/btnvoluntario"
+            android:layout_width="416dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#6B2F8EBB"
+            android:gravity="center"
+            android:text="Trabalho Voluntário"
+            android:textAlignment="center"
+            android:textColor="#E11D75E0"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:background="@drawable/trabalhovoluntario">
+
+        </ImageView>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoarMoveis">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="326dp"
+            android:background="@drawable/logoinstituicao">
+
+        </ImageView>
+
+
+        <TextView
+            android:id="@+id/txtmelhoridade"
+            android:layout_width="400dp"
+            android:layout_height="58dp"
+            android:layout_gravity="end"
+            android:breakStrategy="simple"
+            android:gravity="center|center_horizontal"
+            android:text="LAR MELHOR IDADE "
+            android:textAlignment="textStart"
+            android:textColor="#D0201616"
+            android:textSize="30sp"
+            android:textStyle="normal|italic"
+            tools:ignore="RtlCompat"  />
+
+        <TextView
+            android:id="@+id/txtalojamento"
+            android:layout_width="394dp"
+            android:layout_height="58dp"
+            android:layout_gravity="end"
+            android:breakStrategy="simple"
+            android:gravity="center|center_horizontal"
+            android:text="ALOJAENTO COMUNITÁRIO "
+            android:textAlignment="textStart"
+            android:textColor="#D0201616"
+            android:textSize="30sp"
+            android:textStyle="normal|italic"
+            tools:ignore="RtlCompat"  />
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

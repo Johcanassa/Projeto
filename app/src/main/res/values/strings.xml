@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">ConexaoDoBem</string>
+    <string name="appMissão" translatable="false">A Missão do Aplicativo Conexão do Bem é facilitar a localização de instituições sociais e ações de caridade, facilitando a arrecadações de donativos como:Roupas,Sapatos,Brinquedos,Alimentos,Eletrodomésticos,Movéis,entre outros. Proporcionando segurança nas informações disponibilizadas aos nossos usuários para que eles realizem doações de forma objetiva,segura e transparente,tendo como foco a população da cidade de Itapetininga e Região</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="google_maps_key">AIzaSyCapO5milC-BH2gU05dzMq0sUBb8GdvQ8o</string>
+    <string name="Missao" translatable="false">Doudores da Alegria é um  grupo mobilizado, a partir da sociedade civil que integra para levar humor,arte profissionalizada,acervo de conhecimento e muita alegria para crianças internadas em hospitais, bem como aos seus familiares e á equipes de saúde. </string>
+    <string name="voluntario" translatable="false"> Sabemos que todas as pessoas tem seus super poderes (algo que ama fazer, um valor que possua, como dinamismo, altruísmo e tantos outros dons), tudo bem, são diferentes dos filmes e quadrinhos, mas isso é o que os tornam heróis visíveis ou mesmo invisíveis de nossas crianças e adolescentes.
+        \n VENHA FAZER PARTE DA NOSSA EQUIPE DE HERÓIS!!!</string>
+    <string name="idosos">Acolher pessoas idosas, com vínculos familiares rompidos ou fragilizados, a fim de garantir proteção integral, assegurando-lhes direitos.Contribuir para a prevenção do agravamento de situações de negligência, violência e ruptura de vínculos;Restabelecer vínculos familiares e/ou sociais;Possibilitar a convivência comunitária;Favorecer capacidades e oportunidades para que os indivíduos façam escolhas com autonomia;Promover o acesso a programações culturais, atividades internas e externas, de lazer, de esporte, vivências;Promover momentos de descontração, de interação entre grupos;Proporcionar um envelhecimento mais longo e saudável;</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="alojamento">  Serviço ofertado para pessoas adultas que utilizam as ruas como espaço de moradia e sobrevivência. Tem a finalidade de assegurar atendimento com atividades direcionadas para o desenvolvimento de reinserção social, na perspectiva de construção de vínculos interpessoais e familiares que oportunizem a construção do processo de saída das ruas.
+        pessoas em situação de rua, de ambos os sexos, acima de 18 anos, acompanhados ou não de filhos.</string>
+    <string name="sopao">Cada encontro do Sopão SolidárioComunitario terá por objetivo integrar a comunidade e proporcionar a crianças, idosos e demais moradores uma refeição nutritiva e saborosa,Essa proposta se espelha em inúmeras outras realizadas em diversas partes do Brasil, e se trata de um trabalho voltado para promover uma melhor qualidade de vida para pessoas carentes de nossa cidade e região. Portanto, queremos contar com sua ajuda, pois nosso lema é “Sonhar sozinho ... Não passa de um sonho. Sonhar juntos, é um sonho que se torna realidade”,Assim, esperamos contar com sua ajuda, para juntos podermos fazer a diferença, proporcionando significativas mudanças em nossa sociedade..</string>
+
+    <string name="esporteclube" translatable="false">Fixo:(15) 3271–9049  Whatssap (15)99560-7040  E-mail:clb.futuro@ig.com.br </string>
+    <string name="objetivo" translatable="false">Promover a inclusão esportiva de crianças e adolescentes em situação de vulnerabilidade social, estimulando uma melhora significativa nas condições de aprendizado, cidadania e formação de valores;
+
+Ser agente de transformação social, utilizando o esporte como ferramenta de inclusão e superação de desigualdades;
+
+Atuar em parceria com os outros setores e entidades sociais para o cuidado integral e promoção da infância e adolescência.
+    </string>
+</resources>
