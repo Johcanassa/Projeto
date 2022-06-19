@@ -8,6 +8,7 @@
     tools:context=".DoarCobertores">
 
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -22,49 +23,63 @@
 
         </ImageView>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
+
         <TextView
             android:id="@+id/txtgaadi"
-            android:layout_width="400dp"
-            android:layout_height="58dp"
-            android:layout_gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:breakStrategy="simple"
-            android:gravity="center|center_horizontal"
             android:text="GAADI"
-            android:textAlignment="textStart"
+            android:textAlignment="viewStart"
             android:textColor="#D0201616"
             android:textSize="30sp"
             android:textStyle="normal|italic"
             tools:ignore="RtlCompat" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
         <TextView
             android:id="@+id/txtmelhoridade"
-            android:layout_width="400dp"
-            android:layout_height="58dp"
-            android:layout_gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:breakStrategy="simple"
             android:gravity="center|center_horizontal"
             android:text="LAR MELHOR IDADE "
-            android:textAlignment="textStart"
+            android:textAlignment="viewStart"
             android:textColor="#D0201616"
             android:textSize="30sp"
             android:textStyle="normal|italic"
-            tools:ignore="RtlCompat"  />
+            tools:ignore="RtlCompat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></LinearLayout>
 
         <TextView
             android:id="@+id/txtalojamento"
-            android:layout_width="400dp"
-            android:layout_height="58dp"
-            android:layout_gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:breakStrategy="simple"
-            android:gravity="center|center_horizontal"
-            android:text="ALOJAENTO COMUNITÁRIO "
-            android:textAlignment="textStart"
+            android:text="ALOJAMENTO COMUNITÁRIO "
+            android:textAlignment="gravity"
             android:textColor="#D0201616"
-            android:textSize="30sp"
+            android:textSize="30dp"
             android:textStyle="normal|italic"
-            tools:ignore="RtlCompat"  />
-
-
+            tools:ignore="RtlCompat" />
 
 
     </LinearLayout>

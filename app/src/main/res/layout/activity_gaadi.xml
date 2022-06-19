@@ -47,14 +47,13 @@
 
             <TextView
                 android:id="@+id/txtendereco"
-                android:layout_width="248dp"
-                android:layout_height="150dp"
-                android:layout_gravity="center"
+                android:layout_width="289dp"
+                android:layout_height="wrap_content"
                 android:breakStrategy="simple"
-                android:gravity="fill_horizontal"
-                android:text="Endereço: Pça. dos 3 Poderes, 1000 - Jardim Marabá ITAPETININGA - SP, 18213-900 Brasil \n Fone: (15) 3271.9049 \n E-mail: gaadi@ig.com.br"
+                android:text="Endereço: Pça. dos 3 Poderes, 1000 Jardim Marabá ITAPETININGA - SP \nCEP 18213-900 Brasil \n Fone: (15) 3271.9049 \n E-mail: gaadi@ig.com.br"
+                android:textAlignment="viewStart"
                 android:textColor="#F31F1C1C"
-                android:textSize="20sp"
+                android:textSize="19sp"
                 android:textStyle="italic">
 
             </TextView>
@@ -71,14 +70,14 @@
 
         <TextView
             android:id="@+id/txtmissao"
-            android:layout_width="399dp"
-            android:layout_height="287dp"
+            android:layout_width="408dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
             android:breakStrategy="simple"
-            android:gravity="fill_horizontal"
-            android:layout_gravity="end"
             android:text="Missão: Acolher provisoriamente e excepcionalmente crianças e adolescentes de ambos os sexos, sob medida de proteção e em situação de risco pessoal e social, cujas famílias ou responsáveis encontram-se temporariamente impossibilitados de cumprir sua função de cuidado e proteção."
+            android:textAlignment="inherit"
             android:textColor="#DF1F1C1C"
-            android:textSize="25sp"
+            android:textSize="24dp"
             android:textStyle="italic">
 
         </TextView>
@@ -92,12 +91,12 @@
 
         <TextView
             android:id="@+id/txttipodoacao"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
+            android:layout_width="426dp"
+            android:layout_height="212dp"
+            android:layout_gravity="center"
             android:breakStrategy="high_quality"
-            android:gravity="fill_horizontal"
             android:text="Tipo de Doações que Recebe: \n Alimentos \n Cobertores \n Roupas \n Sapatos \n Brinquedos \n Calçados \n Trabalhos Voluntários"
+            android:textAlignment="gravity"
             android:textColor="#DF1F1C1C"
             android:textSize="20sp"
             android:textStyle="bold|italic">
@@ -130,18 +129,20 @@
                 android:orientation="horizontal">
 
 
-                <TextView
-                    android:id="@+id/txtLocalizacao"
-                    android:layout_width="match_parent"
+                <LinearLayout
+                    android:layout_width="135dp"
                     android:layout_height="match_parent"
-                    android:breakStrategy="simple"
-                    android:gravity="fill_vertical"
-                    android:text="Localização"
-                    android:textColor="#DF1F1C1C"
-                    android:textSize="25sp"
-                    android:textStyle="italic">
+                    android:orientation="horizontal">
 
-                </TextView>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/idwhats"
+                    android:layout_width="128dp"
+                    android:layout_height="81dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/whatsapplogo" />
+
 
             </LinearLayout>
 

@@ -38,17 +38,15 @@
 
         <TextView
             android:id="@+id/txtalojamento"
-            android:layout_width="394dp"
-            android:layout_height="58dp"
-            android:layout_gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:breakStrategy="simple"
-            android:gravity="center|center_horizontal"
-            android:text="ALOJAENTO COMUNITÁRIO "
-            android:textAlignment="textStart"
+            android:text="ALOJAMENTO COMUNITÁRIO "
+            android:textAlignment="gravity"
             android:textColor="#D0201616"
-            android:textSize="30sp"
+            android:textSize="30dp"
             android:textStyle="normal|italic"
-            tools:ignore="RtlCompat"  />
+            tools:ignore="RtlCompat" />
 
 
 

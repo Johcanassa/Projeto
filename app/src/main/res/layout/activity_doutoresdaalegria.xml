@@ -45,8 +45,8 @@
 
                 <TextView
                     android:id="@+id/txtendereco"
-                    android:layout_width="match_parent"
-                    android:layout_height="126dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="145dp"
                     android:layout_gravity="center"
                     android:breakStrategy="simple"
                     android:gravity="center"
@@ -73,11 +73,10 @@
 
         <TextView
             android:id="@+id/txtmissao"
-            android:layout_width="400dp"
+            android:layout_width="388dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="end"
+            android:layout_gravity="center"
             android:fontFamily="sans-serif-medium"
-            android:gravity="center"
             android:text="@string/Missao"
             android:textAlignment="viewStart"
             android:textColor="#DF1F1C1C"
@@ -118,15 +117,25 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="400dp"
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="220dp"
                 android:layout_height="match_parent"
-                android:orientation="horizontal" />
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/idwhats"
+                android:layout_width="160dp"
+                android:layout_height="85dp"
+                android:layout_gravity="fill_vertical|end"
+                app:srcCompat="@drawable/whatsapplogo" />
+
 
         </LinearLayout>
 

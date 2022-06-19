@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name" translatable="false">ConexaoDoBem</string>
-    <string name="appMissão" translatable="false">A Missão do Aplicativo Conexão do Bem é facilitar a localização de instituições sociais e ações de caridade, facilitando a arrecadações de donativos como:Roupas,Sapatos,Brinquedos,Alimentos,Eletrodomésticos,Movéis,entre outros. Proporcionando segurança nas informações disponibilizadas aos nossos usuários para que eles realizem doações de forma objetiva,segura e transparente,tendo como foco a população da cidade de Itapetininga e Região</string>
+    <string name="appMissão" translatable="false">A Missão do aplicativo Conexão do Bem é facilitar a localização de instituições sociais e ações de caridade, facilitando arrecadações de donativos\nComo:Roupas,Sapatos,Brinquedos,Alimentos,Eletrodomésticos,Movéis entre Outros.\n Proporcionando segurança nas informações disponibilizadas aos nossos usuários para que  realizem suas doações de forma objetiva,segura e transparente,tendo como foco a população da cidade de Itapetininga e Região</string>
     <string name="title_activity_maps" translatable="false">Map</string>
     <string name="google_maps_key">AIzaSyCapO5milC-BH2gU05dzMq0sUBb8GdvQ8o</string>
     <string name="Missao" translatable="false">Doudores da Alegria é um  grupo mobilizado, a partir da sociedade civil que integra para levar humor,arte profissionalizada,acervo de conhecimento e muita alegria para crianças internadas em hospitais, bem como aos seus familiares e á equipes de saúde. </string>
